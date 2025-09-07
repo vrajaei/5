@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 body \{\
+    background-color: #1a1a2e; /* Dark blue-purple */\
+    color: #e5e5e5; /* Light gray for text */\
+    font-family: Arial, sans-serif;\
+    margin: 0;\
+    padding: 0;\
+\}\
+\
+header \{\
+    background-color: #2c003e; /* Darker purple */\
+    text-align: center;\
+    padding: 20px 0;\
+\}\
+\
+h1 \{\
+    margin: 0;\
+\}\
+\
+nav \{\
+    background-color: #3b0a57; /* Another dark purple */\
+    display: flex;\
+    justify-content: center;\
+    padding: 10px 0;\
+\}\
+\
+ul \{\
+    list-style-type: none;\
+    margin: 0;\
+    padding: 0;\
+    display: flex;\
+\}\
+\
+li.dropdown \{\
+    position: relative;\
+    display: inline-block;\
+\}\
+\
+.tab \{\
+    display: block;\
+    color: #e5e5e5;\
+    text-align: center;\
+    padding: 14px 16px;\
+    text-decoration: none;\
+    transition: background-color 0.3s;\
+\}\
+\
+.tab:hover \{\
+    background-color: #5d1788;\
+\}\
+\
+.dropdown-content \{\
+    display: none;\
+    position: absolute;\
+    background-color: #3b0a57;\
+    min-width: 160px;\
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\
+    z-index: 1;\
+    padding: 12px;\
+\}\
+\
+.dropdown:hover .dropdown-content \{\
+    display: block;\
+\}\
+\
+.dropdown-content p \{\
+    margin: 0 0 10px 0;\
+\}\
+\
+.dropdown-content img \{\
+    max-width: 100%;\
+    height: auto;\
+    display: block;\
+\}}
